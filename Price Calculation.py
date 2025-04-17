@@ -16,7 +16,6 @@ def calculate_new_price(row, pricing_rules):
 
     return round(max(new_price, min_price), 2)
  
- 
 def apply_pricing_rules(products_df, sales_df, pricing_rules):
  
     # Merge product and sales data
@@ -90,4 +89,5 @@ def main():
     print("Successfully saved updated prices to updated_prices.csv")
 
 if __name__ == "__main__":
+ 
     main()
