@@ -88,3 +88,6 @@ The pricing rules could be made more flexible by storing them in a separate conf
 Error handling could be further enhanced, such as adding more specific exceptions or logging.
 
 The code could be optimized for even larger datasets by exploring alternative data structures or parallel processing techniques.
+
+--------
+Still in progress
